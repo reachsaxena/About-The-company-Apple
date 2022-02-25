@@ -52,18 +52,16 @@ h2 {
     position: absolute;
     top: 35%;
     left: 25%;
-    width:50%;
+    width:100%;
 
 }
 
 .heading {
     
-    animation: animation 1s ease-in-out infinite alternate;
-    font-size: 1.5rem;
-    color:#071042;
-    font-family: Shadows Into Light, caveat;
+    animation: animation2 1s ease-in-out infinite alternate;
+    font-size: 2.5rem;
+    color:#97165d;
 }
-
 
 .info-p {
     font-family:caveat, Shadows Into Light;
@@ -162,3 +160,12 @@ strong {
     }
 }
 
+@keyframes animation2 {
+    from {
+        text-shadow: 0 0 20px #162197;
+    }
+    to {
+        text-shadow: 0 0 30px #162197,
+            0 0 10px #162197;
+    }
+}
