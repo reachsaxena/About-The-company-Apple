@@ -5,18 +5,16 @@
 
 body {
     background-color: #212121;
-    height: 100%;
+    min-height: 100%;
     display: flex;
     justify-content:center;
     align-items:center;
-
-
-    
+    overflow-x: hidden;
 }
 
 .main-header {
     position: absolute;
-    font-family: Architects Daughter, Shadows Into Light, caveat;
+    font-family: Architects Daughter, Shadows Into Light;
     color: #4ababa;
     font-size: 10rem;
     text-transform: uppercase;
@@ -27,7 +25,7 @@ body {
 
 .subtitle {
     position: absolute;
-    font-family: Architects Daughter, Shadows Into Light, caveat;
+    font-family: Architects Daughter, Shadows Into Light;
     color: #4ababa;
     font-size: 2rem;
     text-transform: uppercase;
@@ -37,7 +35,7 @@ body {
 }
 
 h2 {
-    font-family: pacifico, caveat;
+    font-family: pacifico;
 }
 
 .header {
@@ -47,14 +45,14 @@ h2 {
     font-size: 2rem;
     color: #4ababa;
     animation: animation 1s ease-in-out infinite alternate;
-    font-family:Architects Daughter, Shadows Into Light, caveat;
+    font-family:Architects Daughter, Shadows Into Light;
 }
 
 .info {
     position: absolute;
     top: 35%;
     left: 25%;
-    width:50%;
+    width:100%;
 
 }
 
@@ -66,7 +64,7 @@ h2 {
 }
 
 .info-p {
-    font-family:caveat;
+    font-family:caveat, Shadows Into Light;
     font-size: 1.3rem;
     color: #4ababa;
 }
@@ -74,24 +72,35 @@ h2 {
 .sorces-link {
     color: #818181;
     font-size: 18px;
-    text-decoration: none;
+    text-decoration:none;
     
 }
 
 .timeline {
-    width:40%;
+    max-width:40%;
     
 }
 
 li a {
-    font-family:caveat;
+    font-family:caveat, shadows Into Light;
+}
+
+strong {
+    font-size: 2.5rem;;
+}
+
+.pictures {
+
+    width:40%;
+    margin:10px;
+
 }
 
 
 /* The sidebar menu */
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
+    max-height: 100%; /* Full-height: remove this if you want "auto" height */
+    max-width: 160px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -108,7 +117,7 @@ li a {
     font-size: 25px;
     color: #818181;
     display: block;
-    font-family: Architects Daughter, caveat ;
+    font-family: Architects Daughter,Shadows Into Light;
   }
   
   /* When you mouse over the navigation links, change their color */
@@ -131,7 +140,7 @@ li a {
   .sidnav-header {
     color:rgb(92, 90, 90);
     padding: 6px 8px 6px 16px;
-    font-family: Shadows Into Light, caveat;
+    font-family: Shadows Into Light;
   }
   
   a:hover {
@@ -150,5 +159,4 @@ li a {
             0 0 10px #289aab;
     }
 }
-
 
