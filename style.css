@@ -35,7 +35,7 @@ body {
 }
 
 h2 {
-   font-family: pacifico, Shadows Into Light, caveat;
+    font-family: pacifico, Shadows Into Light, caveat;
 }
 
 .header {
@@ -52,7 +52,7 @@ h2 {
     position: absolute;
     top: 35%;
     left: 25%;
-    width:100%;
+    width:50%;
 
 }
 
@@ -93,6 +93,24 @@ strong {
 
     width:40%;
     margin:10px;
+
+}
+
+#blooket-text {
+
+    color:red;
+    position: absolute;
+    top: 345%;
+    left: 25%;
+    font-size:2rem
+}
+
+.blooket-img {
+
+    position: absolute;
+    top: 360%;
+    left: 25%;
+    border-radius: 25px;
 
 }
 
@@ -169,3 +187,4 @@ strong {
             0 0 10px #162197;
     }
 }
+
