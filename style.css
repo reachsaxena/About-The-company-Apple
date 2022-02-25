@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body {
+    background-color: #212121;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.main-header {
+    position: absolute;
+    font-family: Architects Daughter;
+    color: #4ababa;
+    font-size: 10rem;
+    text-transform: uppercase;
+    animation: animation 1s ease-in-out infinite alternate;
+    left: 25%;
+    top: -140px;
+}
+
+.subtitle {
+    position: absolute;
+    font-family: Architects Daughter;
+    color: #4ababa;
+    font-size: 2rem;
+    text-transform: uppercase;
+    animation: animation 1s ease-in-out infinite alternate;
+    left: 25%;
+    top: 25%;
+}
+
+h2 {
+    font-family: pacifico;
+}
+
+.header {
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    font-size: 2rem;
+    color: #4ababa;
+    animation: animation 1s ease-in-out infinite alternate;
+    font-family:Architects Daughter;
+}
+
+.info {
+    position: absolute;
+    border-top: 2px solid black;
+    top: 35%;
+    left: 25%;
+    width:100%;
+
+}
+
+.heading {
+    
+    animation: animation 1s ease-in-out infinite alternate;
+    font-size: 1.5rem;
+    color:#071042
+}
+
+.info-p {
+    font-family:caveat;
+    font-size: 1.3rem;
+    color: #4ababa;
+}
+
+.sorces-link {
+    color: #818181;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+.timeline {
+    width:40%;
+    
+}
+
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    font-family: Architects Daughter ;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  .sidnav-header {
+    color:rgb(92, 90, 90);
+    padding: 6px 8px 6px 16px;
+    font-family: Shadows Into Light;
+  }
+  
+  a:hover {
+    border: 2px solid rgb(90, 83, 83);
+    transition: border 1s linear;
+  }
+    
+  
+
+@keyframes animation {
+    from {
+        text-shadow: 0 0 20px #289aab;
+    }
+    to {
+        text-shadow: 0 0 30px #289aab,
+            0 0 10px #289aab;
+    }
+}
+
+
