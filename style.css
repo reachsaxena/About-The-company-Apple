@@ -87,11 +87,6 @@ li a {
     font-family:caveat;
 }
 
-html {
-overflow: scroll;
-overflow-x: hidden;
-}
-
 
 /* The sidebar menu */
 .sidenav {
