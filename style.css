@@ -9,13 +9,13 @@ body {
     display: flex;
     justify-content:center;
     align-items:center;
-    ooverflow-x: hidden;
+    overflow-x: hidden;
     
 }
 
 .main-header {
     position: absolute;
-    font-family: Architects Daughter;
+    font-family: Architects Daughter, Shadows Into Light;
     color: #4ababa;
     font-size: 10rem;
     text-transform: uppercase;
@@ -26,7 +26,7 @@ body {
 
 .subtitle {
     position: absolute;
-    font-family: Architects Daughter;
+    font-family: Architects Daughter, Shadows Into Light;
     color: #4ababa;
     font-size: 2rem;
     text-transform: uppercase;
@@ -46,7 +46,7 @@ h2 {
     font-size: 2rem;
     color: #4ababa;
     animation: animation 1s ease-in-out infinite alternate;
-    font-family:Architects Daughter;
+    font-family:Architects Daughter, Shadows Into Light;
 }
 
 .info {
@@ -80,6 +80,10 @@ h2 {
 .timeline {
     width:40%;
     
+}
+
+li a {
+    font-family:caveat;
 }
 
 
