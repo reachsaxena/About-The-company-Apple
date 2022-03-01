@@ -100,16 +100,15 @@ strong {
 
     color:red;
     position: absolute;
-    top: 2815px;
-    left: 25%;
-    font-size:2rem
+    z-index:10;
+    font-size:2rem;
+    margin-left:10px;
 }
 
 .blooket-img {
 
     position: absolute;
-    top: 2900px;
-    left: 25%;
+
     border-radius: 25px;
 
 }
